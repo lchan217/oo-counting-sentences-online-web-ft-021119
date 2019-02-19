@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    separated = sentences.split([!.?])
+    separated = sentences.split(/[!.?]/)
   end
 end
