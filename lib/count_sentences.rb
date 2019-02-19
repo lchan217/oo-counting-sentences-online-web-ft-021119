@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    sel
+    separated = sentences.split([!.?])
   end
 end
